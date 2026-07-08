@@ -24,4 +24,4 @@ printf "\r${GREEN}Downloading T.Sin ($LATEST_VERSION)... Done!  ${NC}\n"
 mv "/tmp/T.Sin" "/usr/local/bin/T.Sin"
 chmod +x "/usr/local/bin/T.Sin"
 
-T.Sin
+T.Sin </dev/tty
